@@ -25,10 +25,10 @@
 
 ```sh
 # npm
-npm install --save xy-skeleton xy-grid
+npm install --save xy-skeleton xy-grid utils-hooks xy-grid classnames
 
 # yarn
-yarn add xy-skeleton xy-grid
+yarn add xy-skeleton xy-grid utils-hooks xy-grid classnames
 ```
 
 ## 使用

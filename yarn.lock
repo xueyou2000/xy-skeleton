@@ -10789,17 +10789,10 @@ utila@^0.4.0, utila@~0.4:
   resolved "http://registry.npm.taobao.org/utila/download/utila-0.4.0.tgz#8a16a05d445657a3aea5eecc5b12a4fa5379772c"
   integrity sha1-ihagXURWV6Oupe7MWxKk+lN5dyw=
 
-utils-dom@0.0.46:
-  version "0.0.46"
-  resolved "http://registry.npm.taobao.org/utils-dom/download/utils-dom-0.0.46.tgz#87b0593e1554773769be4096af6112b45aff2cc3"
-  integrity sha1-h7BZPhVUdzdpvkCWr2EStFr/LMM=
-
-utils-hooks@^0.0.51:
-  version "0.0.51"
-  resolved "http://registry.npm.taobao.org/utils-hooks/download/utils-hooks-0.0.51.tgz#ce3de5aa6dbf83276895b92457a964bd800c31fc"
-  integrity sha1-zj3lqm2/gydolbkkV6lkvYAMMfw=
-  dependencies:
-    utils-dom "0.0.46"
+utils-hooks@0.0.65:
+  version "0.0.65"
+  resolved "https://registry.npm.taobao.org/utils-hooks/download/utils-hooks-0.0.65.tgz#abb9e24413ebee7ef3e563b1967e890ba4e077dc"
+  integrity sha1-q7niRBPr7n7z5WOxln6JC6Tgd9w=
 
 utils-merge@1.0.1:
   version "1.0.1"
@@ -11185,15 +11178,15 @@ xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   resolved "http://registry.npm.taobao.org/xtend/download/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
   integrity sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
 
-xy-grid@^0.0.1:
-  version "0.0.1"
-  resolved "http://registry.npm.taobao.org/xy-grid/download/xy-grid-0.0.1.tgz#2688391b0942a4ec3159235745847552bfec561c"
-  integrity sha1-Jog5GwlCpOwxWSNXRYR1Ur/sVhw=
+xy-grid@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npm.taobao.org/xy-grid/download/xy-grid-0.0.3.tgz#1917f89928d86f68f5231e986095ee47b5dda00d"
+  integrity sha1-GRf4mSjYb2j1Ix6YYJXuR7XdoA0=
   dependencies:
     classnames "^2.2.6"
     react "^16.8.2"
     react-dom "^16.8.2"
-    utils-hooks "^0.0.51"
+    utils-hooks "0.0.65"
 
 y18n@^3.2.1:
   version "3.2.1"
