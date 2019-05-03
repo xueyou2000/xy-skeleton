@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Simple",
+        "title": "简单使用",
+        "desc": "包裹某些内容，loading 状态时显示骨架屏"
+    }
+]
