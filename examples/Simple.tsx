@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Skeleton from "../src";
-import "../src/assets/index";
 
 export default function() {
     const [loading, setLoading] = useState(true);
