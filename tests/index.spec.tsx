@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-testing-library";
+import { render } from "@testing-library/react";
 import Skeleton from "../src";
 
 describe("Skeleton", () => {
@@ -17,7 +17,7 @@ describe("Skeleton", () => {
         const wrapper = render(
             <Skeleton loading={true}>
                 <p>加载完毕</p>
-            </Skeleton>
+            </Skeleton>,
         );
 
         const root = wrapper.container.querySelector(".xy-skeleton");
@@ -27,7 +27,7 @@ describe("Skeleton", () => {
         wrapper.rerender(
             <Skeleton loading={false}>
                 <p>加载完毕</p>
-            </Skeleton>
+            </Skeleton>,
         );
 
         const text = wrapper.getByText("加载完毕");
